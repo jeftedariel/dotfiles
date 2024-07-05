@@ -195,7 +195,7 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 bindsym $mod+d exec rofi -show combi
-exec_always feh --bg-scale ~/background/5.png
+exec_always feh --bg-scale ~/dotfiles/backgrounds/5.png
 exec_always --no-startup-id killall polybar
 
 exec_always --no-startup-id ~/.config/polybar/launch_polybar.sh
