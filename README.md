@@ -1,0 +1,11 @@
+polybar
+feh
+alacritty
+nvim
+picom
+rofi
+brew
+oh-my-posh
+maim
+xclip
+xdotool
