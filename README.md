@@ -21,11 +21,12 @@ cd yay
 makepkg -si
 ```
 
-## Install and Stow 💾
+## Install packages 💾
 ```bash
 yay -Syu stow polybar feh alacritty nvim picom rofi maim xclip xdotool
 ``` 
 
+## Symlink the configs 🖇
 ```bash
 mv ~/.config/i3 ~/.config/old-i3
 stow alacritty backgrounds i3 nvim picom polybar prompt rofi
