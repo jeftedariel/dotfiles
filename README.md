@@ -1,13 +1,13 @@
-# Arch + i3wm
+# Arch + i3wm 🐧 
 This is my Arch config for i3wm.
 
-## Clone this repo
+## Clone this repo 📂
 ```bash
 git clone https://github.com/JEFTEDARIEL123/dotfiles.git
 cd dotfiles
 ```
 
-## Install yay
+## Install yay 💾
 ```bash
 sudo pacman -Syu
 ```
@@ -21,7 +21,7 @@ cd yay
 makepkg -si
 ```
 
-## Install and Stow
+## Install and Stow 💾
 ```bash
 yay -Syu stow polybar feh alacritty nvim picom rofi maim xclip xdotool
 ``` 
@@ -31,7 +31,7 @@ mv ~/.config/i3 ~/.config/old-i3
 stow alacritty backgrounds i3 nvim picom polybar prompt rofi
 ```
 
-## Installing Brew & oh-my-posh
+## Installing Brew & oh-my-posh 💾
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
@@ -40,10 +40,9 @@ brew install jandedobbeleer/oh-my-posh/oh-my-posh
 eval "$(oh-my-posh init bash --config ~/.config/prompt/prompt.omp.json)"
 ```
 
-## Now install FiraCode Font using
+## Now install FiraCode Font using 💾
 ```bash
 oh-my-posh font install
 ```
 
-
-Then just press Win+Shift+R to reload i3 
+### Then just press Win+Shift+R to reload i3 🚀
