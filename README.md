@@ -23,7 +23,7 @@ makepkg -si
 
 ## Install packages 💾
 ```bash
-yay -Syu stow polybar feh alacritty nvim picom rofi maim xclip xdotool
+yay -Syu stow polybar feh alacritty neovim picom rofi maim xclip xdotool
 ``` 
 
 ## Symlink the configs 🖇
