@@ -1,5 +1,5 @@
-# Arch + i3wm 🐧 
-This is my Arch config for i3wm.
+# Arch + i3wm 🐧
+Arch config for i3wm.
 
 ## Clone this repo 📂
 ```bash
