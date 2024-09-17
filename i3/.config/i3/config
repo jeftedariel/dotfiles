@@ -20,7 +20,7 @@ for_window [class="^.*"] border pixel 1
 exec_always --no-startup-id "setxkbmap -layout us -variant altgr-intl -option nodeadkeys"
 
 gaps inner 10
-gaps outer 0
+gaps outer 3
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
 #font pango:DejaVu Sans Mono 8
@@ -210,7 +210,7 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 bindsym $mod+d exec rofi -show combi
-exec_always feh --bg-scale ~/.config/backgrounds/city.jpg
+exec_always feh --bg-scale ~/.config/backgrounds/playita.jpg
 exec_always --no-startup-id killall polybar
 
 exec_always --no-startup-id ~/.config/polybar/launch_polybar.sh
